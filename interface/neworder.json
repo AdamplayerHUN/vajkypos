@@ -1,0 +1,1423 @@
+{
+    "buttons": [
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Hotdog norm.",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Hotdog norm",
+                "color":[255, 255, 255, 1],
+                "price":500,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Hotdog amerikai",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Hotdog am",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":600,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Hambur.",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Hamburger",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":1000,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Sajtbur.",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Sajtburger",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":1100,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Kukorica",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Kukorica",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szívószál",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Szívószál",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":50,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "text":"Krumpli",
+                "buttontype":"addorder",
+                "itemtype":"item koret",
+                "itemname":"Krumpli",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":500,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Rizs",
+                "buttontype":"addorder",
+                "itemtype":"item koret",
+                "itemname":"Rizs",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":500,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Kés",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Kés",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":100,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Villa",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Villa",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":100,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "text":"Kóla",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Kóla",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Fanta",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Fanta",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Hell",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Hell",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":400,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "bigger-buttons":[
+    
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "menu-buttons":[
+    
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Hotdog norm. M",
+                "buttontype":"addorder",
+                "itemtype":"menu",
+                "itemname":"Hotdog n",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":1500,
+                "required":[
+                    "koret",
+                    "ital"
+                ],
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Hotdog amerikai M",
+                "buttontype":"addorder",
+                "itemtype":"menu",
+                "itemname":"Hotdog am",
+                "property":"sizeable",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":1600,
+                "required":[
+                    "koret",
+                    "ital"
+                ],
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Hambur. M",
+                "buttontype":"addorder",
+                "itemtype":"menu",
+                "itemname":"Hamburger",
+                "property":"sizeable",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":2000,
+                "required":[
+                    "koret",
+                    "ital"
+                ],
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Sajtbur. M",
+                "buttontype":"addorder",
+                "itemtype":"menu",
+                "itemname":"Sajtburger",
+                "property":"sizeable",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":2100,
+                "required":[
+                    "koret",
+                    "ital"
+                ],
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Kukorica",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Kukorica",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szívószál",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Szívószál",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":50,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+               "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded" 
+            },
+            {
+                "text":"Krumpli",
+                "buttontype":"addorder",
+                "itemtype":"item koret",
+                "itemname":"Krumpli",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":500,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Rizs",
+                "buttontype":"addorder",
+                "itemtype":"item koret",
+                "itemname":"Rizs",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":500,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Kés",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Kés",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":100,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Villa",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Villa",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":100,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "text":"Kóla",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Kóla",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Fanta",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Fanta",
+                "action":"addorder",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":300,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Hell",
+                "buttontype":"addorder",
+                "itemtype":"item drink",
+                "itemname":"Hell",
+                "action":"addorder",
+                "color":[255, 255, 255, 1],
+                "price":400,
+                "fill":false,
+                "shape":"round"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "sauces-buttons":[
+    
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Ketchup",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Ketchup",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":150,
+                "fill":false,
+                "shape":"rect"
+
+            },
+            {
+                "text":"Mustár",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Mustár",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":150,
+                "fill":false,
+                "shape":"rect"
+                
+            },
+            {
+                "text":"Majonéz",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Majonéz",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":150,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Csípős szósz",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Csípős szósz",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":150,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Fokhagym. szósz",
+                "buttontype":"addorder",
+                "itemtype":"item",
+                "itemname":"Fokh. szósz",
+                "property":"sizeable",
+                "color":[255, 255, 255, 1],
+                "price":150,
+                "fill":false,
+                "shape":"rect"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "other-buttons":[
+    
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "categories-buttons":[
+    
+        [
+            {
+                "text":"Nagyobb rendelés",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"bigger-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Menü",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"menu-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Szószok",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"sauces-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Egyéb",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"other-buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Rendelés törlése",
+                "buttontype":"manage",
+                "action":"deleteorder",
+                "color":[255, 0, 0],
+                "fill":true,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Termékek",
+                "buttontype":"switchview",
+                "color":[255, 255, 255],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Elem törlése",
+                "buttontype":"manage",
+                "action":"deleteitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Kicsi",
+                "buttontype":"modifyitem",
+                "action":"small",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Menü össz. törlése",
+                "buttontype":"manage",
+                "action":"deletemenuitem",
+                "color":[255, 0, 0, 1],
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Közepes",
+                "buttontype":"modifyitem",
+                "action":"medium",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Admin menü",
+                "buttontype":"switchview",
+                "color":[255, 0, 0, 1],
+                "switchview":"admin-buttons",
+                "fill":false,
+                "shape":"rect"
+            }
+        ],
+        [
+            {
+                "text":"Nagy",
+                "buttontype":"modifyitem",
+                "action":"large",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect rounded"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "buttontype":"blank"
+            },
+            {
+                "text":"Rendelés lista",
+                "buttontype":"action",
+                "action":"back",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Fizettetés",
+                "buttontype":"action",
+                "action":"pay",
+                "buttonsize":"double",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ],
+    "admin-buttons":[
+        [
+            {
+                "text":"Kijelzőméret",
+                "buttontype":"manage",
+                "action":"setdisplaysize",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+
+            },
+            {
+                "text":"Gomb pozíció",
+                "buttontype":"manage",
+                "action":"setbuttonpos",
+                "color":[255, 255, 255],
+                "fill":true,
+                "shape":"rect"
+            },
+            {
+                "text":"Vissza",
+                "buttontype":"switchview",
+                "color":[255, 0, 0],
+                "switchview":"buttons",
+                "fill":true,
+                "shape":"rect"
+            }
+        ]
+    ]
+}

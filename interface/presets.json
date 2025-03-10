@@ -1,0 +1,203 @@
+{
+    "2880x1700":{
+        "offsets": {
+            "offset_btn_x": 53,
+            "offset_txt_x": 62,
+            "offset_btn_y": 123,
+            "offset_txt_y": 60,
+            "spread_x": 4.069999999999958,
+            "spread_y": 3.8199999999999994,
+            "size_multiplier": 2.4399999999999915,
+            "keypad_mul": [
+                -15,
+                -20,
+                1.6,
+                1.6,
+                0.8
+            ],
+            "button_sizing": [
+                2.4,
+                3.43,
+                5.23
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+        }
+    },
+    "2000x1200":{
+        "offsets": {
+            "offset_btn_x": 53,
+            "offset_txt_x": 31,
+            "offset_btn_y": 123,
+            "offset_txt_y": 26,
+            "spread_x": 3.93999999999996,
+            "spread_y": 3.740000000000001,
+            "size_multiplier": 1.7100000000000006,
+            "keypad_mul": [
+                -10,
+                -25,
+                1.1,
+                1.1,
+                0.9
+            ],
+            "button_sizing": [
+                2.35,
+                3.43,
+                5.1
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+        }
+    },
+    "1920x1080":{
+        "offsets": {
+            "offset_btn_x": 53,
+            "offset_txt_x": 31,
+            "offset_btn_y": 123,
+            "offset_txt_y": 26,
+            "spread_x": 3.809999999999963,
+            "spread_y": 3.370000000000009,
+            "size_multiplier": 1.6700000000000006,
+            "keypad_mul": [
+                -10,
+                -25,
+                1.2,
+                1,
+                0.85
+            ],
+            "button_sizing": [
+                2.32,
+                3.43,
+                4.96
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+        }
+    },
+    "1680x1050":{
+        "offsets":{
+            "offset_btn_x": 53,
+            "offset_txt_x": 22,
+            "offset_btn_y": 123,
+            "offset_txt_y": 22,
+            "spread_x": 3.659999999999966,
+            "spread_y": 3.600000000000004,
+            "size_multiplier": 1.5,
+            "keypad_mul": [
+                -5,
+                -20,
+                1.02,
+                1.03,
+                1
+            ],
+            "button_sizing": [
+                2.3,
+                3.43,
+                4.83
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+    }},
+    "1440x900":{
+        "offsets":{
+            "offset_btn_x": 53,
+            "offset_txt_x": 10,
+            "offset_btn_y": 123,
+            "offset_txt_y": 10,
+            "spread_x": 3.7699999999999636,
+            "spread_y": 3.600000000000004,
+            "size_multiplier": 1.22,
+            "keypad_mul": [
+                13,
+                -25,
+                0.85,
+                0.8,
+                1
+            ],
+            "button_sizing": [
+                2.3,
+                3.43,
+                4.93
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+    }},
+    "1280x720":{
+        "offsets": {
+            "offset_btn_x": 53,
+            "offset_txt_x": 2,
+            "offset_btn_y": 123,
+            "offset_txt_y": 3,
+            "spread_x": 3.999999999999959,
+            "spread_y": 3.140000000000014,
+            "size_multiplier": 1.04,
+            "keypad_mul": [
+                65,
+                -25,
+                0.6,
+                0.47,
+                0.72
+            ],
+            "button_sizing": [
+                2.38,
+                3.43,
+                5.18
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+        }
+    },
+    "1152x720":{
+        "offsets": {
+            "offset_btn_x": 53,
+            "offset_txt_x": -3,
+            "offset_btn_y": 123,
+            "offset_txt_y": -2,
+            "spread_x": 3.809999999999963,
+            "spread_y": 3.370000000000009,
+            "size_multiplier": 0.97,
+            "keypad_mul": [
+                30,
+                -25,
+                0.68,
+                0.5,
+                0.9
+            ],
+            "button_sizing": [
+                2.32,
+                3.43,
+                4.9
+            ]
+        },
+        "fontsize": {
+            "smallfont": 18,
+            "font": 30,
+            "titlefont": 60,
+            "neworderfont": 23
+        }
+    }
+}

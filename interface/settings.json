@@ -1,0 +1,30 @@
+{
+    "offsets": {
+        "offset_btn_x": 53,
+        "offset_txt_x": 31,
+        "offset_btn_y": 123,
+        "offset_txt_y": 26,
+        "spread_x": 3.93999999999996,
+        "spread_y": 3.740000000000001,
+        "size_multiplier": 1.7100000000000006,
+        "keypad_mul": [
+            -10,
+            -25,
+            1.1,
+            1.1,
+            0.9
+        ],
+        "button_sizing": [
+            2.35,
+            3.43,
+            5.1
+        ]
+    },
+    "fontsize": {
+        "smallfont": 18,
+        "font": 30,
+        "titlefont": 60,
+        "neworderfont": 23
+    },
+    "preset": "2000x1200"
+}
